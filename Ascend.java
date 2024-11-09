@@ -2,6 +2,21 @@
 // and prints them in increasing order.
 public class Ascend {
 	public static void main(String[] args) {
-		// Replace this comment with your code
+		//double a =Math.random();
+		//double b =Math.random();
+		//double c =Math.random();
+		int a = (int)((Math.random()* Integer.MAX_VALUE -1)+1);
+		int b = (int)((Math.random()* Integer.MAX_VALUE -1)+1);
+		int c = (int)((Math.random()* Integer.MAX_VALUE -1)+1);
+		int x = (int) Math.min(a, b);
+		int min = (int) Math.min(x, c);
+
+		int y = (int) Math.max(a, b);
+		int max = (int) Math.max(y, c);
+
+		int middle =(int)(a +b + c) -(min + max); 
+
+		
+		System.out.println(min + " " + middle + " "+ max);
 	}
 }
