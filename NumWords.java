@@ -10,7 +10,7 @@ public class NumWords {
 		int digit1 = (int) number % 10;
 		number = number / 10;
 
-		System.out.println(digit1 + " hundreds, " + digit2 + " tes, and "+ digit3 + " ones.");
+		System.out.println(digit1 + " hundreds, " + digit2 + " tens, and "+ digit3 + " ones.");
 
 
 
