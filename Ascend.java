@@ -3,9 +3,9 @@
 public class Ascend {
 	public static void main(String[] args) {
 
-		int a = (int)((Math.random()* Integer.MAX_VALUE -1)+1);
-		int b = (int)((Math.random()* Integer.MAX_VALUE -1)+1);
-		int c = (int)((Math.random()* Integer.MAX_VALUE -1)+1);
+		int a = (int)((Math.random()* Integer.parseInt(args[0]) ));
+		int b = (int)((Math.random()* Integer.parseInt(args[0]) ));
+		int c = (int)((Math.random()* Integer.parseInt(args[0]) ));
 		int x = (int) Math.min(a, b);
 		int min = (int) Math.min(x, c);
 
